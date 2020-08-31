@@ -6,7 +6,7 @@ module.exports = {
     color: defaultColor,
     title: 'Help Commands',
     author: {
-      name: 'JammyBot',
+      name: 'oof2win2',
     },
     description: 'These are all of the help commands programmed into JammyBot',
     fields: [
@@ -28,12 +28,39 @@ module.exports = {
       },
       {
         name: `${prefix}factoriompcommands`,
-        value: 'Display all Factorio multiplayer commands'
+        value: 'Display all Factorio multiplayer commands',
+      },
+      {
+        name: `${prefix}faq`,
+        value: 'Display list of FAQ pages about in-game things',
+      },
+      {
+        name: `${prefix}rules`,
+        value: 'Display rules of the server',
       },
     ],
     timestamp: new Date(),
     footer: {
-      text: 'Made with :heart: and a little bit of code by oof2win2'
+      text: 'Made with ❤️ and a little bit of code by oof2win2'
+    },
+  },
+
+  faq: {
+    color: defaultColor,
+    title: 'FAQ',
+    author: {
+      name: 'oof2win2',
+    },
+    description: `These are all of the FAQ pages programmed into JammyBot. Use ${prefix}faq <page> to access them.`,
+    fields: [
+      {
+        name: 'Faq pages for in-game mods (some servers only):',
+        value:  'autodecon, ltn, factoryplanner, electrictrain, explosiveexcavation '
+      }
+    ],
+    timestamp: new Date(),
+    footer: {
+      text: 'Made with ❤️ and a little bit of code by oof2win2'
     },
   },
 
@@ -41,7 +68,7 @@ module.exports = {
     color: defaultColor,
     title: 'Factorio SP Commands',
     author: {
-      name: 'JammyBot',
+      name: 'oof2win2',
     },
     description: 'These are all of the Factorio in-game console commands for singleplayer/client that can be used in +fcommand and +fcommandall. Some of them that can be used only on the Factorio client have a @ in front of the slash. Admin-only commands also have a # in front. Cheat commands have not been included',
     fields: [
@@ -100,7 +127,7 @@ module.exports = {
     ],
     timestamp: new Date(),
     footer: {
-      text: 'Made with :heart: and a little bit of code by oof2win2'
+      text: 'Made with ❤️ and a little bit of code by oof2win2'
     },
   },
 
@@ -108,7 +135,7 @@ module.exports = {
     color: defaultColor,
     title: 'Factorio SP Commands',
     author: {
-      name: 'JammyBot',
+      name: 'oof2win2',
     },
     description: 'These are all of the Factorio in-game console commands for multiplayer/client that can be used in +fcommand and +fcommandall. Some of them that can be used only on the Factorio client have a @ in front of the slash. Admin-only commands also have a # in front. Cheat commands have not been included',
     fields: [
@@ -211,7 +238,7 @@ module.exports = {
     ],
     timestamp: new Date(),
     footer: {
-      text: 'Made with :heart: and a little bit of code by oof2win2'
+      text: 'Made with ❤️ and a little bit of code by oof2win2'
     },
   },
 }
